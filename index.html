@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=first.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>ShippingCalc2</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a class="logo" href="https://github.com/IsmayilJafarov">
+                <img class="logo-img" src="img/GitHub-Mark.png" width="55px" height="55px" /></a>
+            <select class="form-select">
+                <option selected></option>
+                <option value="first">eBay</option>
+                <option value="second">Computer Universe</option>
+                <option value="third">Amazon</option>
+                <input class="first-price" type="number" placeholder="Price before shipping" />
+            </select>
+            <div class="btn-group btn2">
+                <button type="button" class="btn btn-primary dark-mode">
+                    Change Background
+                </button>
+            </div>
+        </div>
+    </div>
+    <form>
+        <div class="mb-3 form-check">
+            <output type="number" class="final-price">
+        </div>
+    </form>
+
+    <div class="btn-toolbar" role="toolbar">
+        <div class="btn-group me-second" aria-label="Первая группа">
+            <button type="button" class="returnBtn result-eBay">eBay Price</button>
+            <button type="button" class="returnBtn result-CompUniverse">
+                Computer Universe Price
+            </button>
+            <button type="button" class="returnBtn result-Amazon">
+                Amazon Price
+            </button>
+            <button type="button" class="returnBtn result-AZN">
+                Convert to AZN
+            </button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
