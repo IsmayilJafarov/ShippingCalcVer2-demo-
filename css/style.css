@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul div {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+}
+
+.body-dark {
+  transition: 0.5s;
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: var(--default-font-color);
+}
+a:visited {
+  text-decoration: none;
+  color: var(--default-font-color);
+}
+
+@media screen and (max-width: 946px) {
+  .body {
+    max-width: 688px;
+  }
+}
+@media screen and (max-width: 460.625px) {
+  .body {
+    max-width: 335px;
+  }
+}
+.container {
+  transition: 0.5s;
+  flex-wrap: wrap;
+  display: flex;
+  border-bottom: 1px solid #000000;
+  padding: 0px 0px 10px;
+}
+
+.container2 {
+  transition: 0.5s;
+  flex-wrap: wrap;
+  display: flex;
+  border-bottom: 1px solid #ffffff;
+  padding: 0px 0px 10px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  margin: 10px 20px 0px;
+}
+
+.form-select {
+  transition: 0.27s;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  margin: 10px 10px 0px 0px;
+  padding: 0;
+  background: #ffffff;
+  box-shadow: 0 2px 8px #00000033;
+  border-radius: 20px;
+  font-weight: 700;
+}
+.form-select:hover {
+  transition: 0.27s;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.btn-group {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  text-transform: uppercase;
+}
+
+.btn {
+  transition: 0.27s;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.btn2 {
+  transition: 0.27s;
+  margin-left: 30%;
+}
+
+.btn-primary {
+  transition: 0.27s;
+  justify-content: end;
+  margin-left: 10px;
+  font-weight: 700;
+  padding: 15px 20px;
+  min-height: 45px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: 0.27s;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.btn-toolbar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+}
+
+.first-price {
+  margin: 10px 0px 10px;
+}
+
+.form-check-label {
+  text-align: center;
+  margin: 17px 0px 10px 20px;
+}
+
+.form-check {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  color: #000000;
+  cursor: pointer;
+}
+
+.mb-3 {
+  margin-top: 15px;
+}
+
+.final-price {
+  text-align: center;
+  width: 150px;
+  background-color: #ffffff;
+  transition: 0.27s;
+  transition: 0.27s;
+  font-weight: 700;
+  padding: 15px 20px;
+  min-height: 45px;
+  color: #000000;
+  cursor: pointer;
+
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.final-price:hover {
+  transition: 0.27s;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.returnBtn {
+  transition: 0.27s;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+
+  justify-content: end;
+  margin-left: 10px;
+  font-weight: 700;
+  padding: 15px 20px;
+  min-height: 45px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.returnBtn:hover {
+  transition: 0.27s;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.first-price {
+  transition: 0.27s;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+
+  justify-content: end;
+  margin-left: 10px;
+  font-weight: 700;
+  padding: 15px 20px;
+  min-height: 45px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.first-price:hover {
+  transition: 0.27s;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.logo-img {
+  border: 0px solid #ffffff;
+  border-radius: 50%;
+}
